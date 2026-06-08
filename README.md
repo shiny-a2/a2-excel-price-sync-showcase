@@ -83,13 +83,14 @@ Read the full boundary in `docs/privacy-boundary.md`.
 - `docs/architecture-notes.md` — architecture, workflow, and engineering decisions.
 - `docs/privacy-boundary.md` — what is public versus private.
 - `docs/update-notes.md` — public update log.
-- `samples/README.md` — planned sanitized sample-code areas.
+- `samples/README.md` — sanitized sample-code overview.
+- `samples/php/` — short public-safe PHP snippets for matching, validation, and report building.
 
 ## Phase Status
 
 - **Phase 1:** showcase skeleton, privacy boundary, and reviewer path.
 - **Phase 2:** employer-friendly business context, architecture notes, and risk boundaries.
-- **Phase 3:** short sanitized code samples that demonstrate matching, validation, and report-building style without exposing production logic.
+- **Phase 3:** sanitized code samples for matching, validation, and report-building style without exposing production logic.
 
 ## Links
 

@@ -1,8 +1,8 @@
-# Sample Code Plan
+# Sample Code
 
-This directory is reserved for Phase 3 public-safe snippets. Samples will demonstrate engineering approach without mirroring production source code.
+This directory contains Phase 3 public-safe snippets. They demonstrate engineering approach without mirroring production source code.
 
-## Planned Areas
+## Published Samples
 
 - `php/reference-normalizer.php` — fictional reference cleanup and boundary-safe comparison.
 - `php/import-row-validator.php` — generic row validation result object with no supplier-specific fields.
@@ -18,4 +18,4 @@ This directory is reserved for Phase 3 public-safe snippets. Samples will demons
 
 ## Status
 
-No code samples are published yet. Phase 2 focuses on employer-friendly context and architecture; Phase 3 will add one to three sanitized PHP snippets.
+Phase 3 is active with three short PHP snippets. These files are intentionally simplified and should be read as review samples, not as production import code.
