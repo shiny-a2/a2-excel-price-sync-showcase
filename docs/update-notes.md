@@ -1,11 +1,17 @@
 # Public Update Notes
 
+## 2026-10-11 — Independent price and stock modes
+
+- Kept family-reference pricing independent from inventory changes.
+- Restricted paired availability checks to explicit stock operations.
+- Removed a storefront-wide availability override so price-only imports preserve existing stock states.
+
 ## 2026-10-11 — Paired product reconciliation
 
 - Improved recognition of two-item sets across supported catalogue title formats.
 - Made paired prices depend on both source prices, with no estimated price from one member.
 - Based paired availability on the smaller member quantity and kept partial imports from clearing stock unless explicitly requested.
-- Added a catalogue availability check between imports so a set is not offered when a member becomes unavailable.
+- Added a catalogue member check for explicitly requested inventory imports.
 - Strengthened regression coverage for partial files, numeric stock, family references, and brand isolation.
 
 
