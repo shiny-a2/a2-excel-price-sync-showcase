@@ -24,6 +24,8 @@ The workflow is designed for controlled catalog operations, not blind bulk edits
 - **Set products:** bundled products that need separate stock handling.
 - **Not-listed in-stock products:** existing catalog items that remain in stock but are absent from the latest import handoff.
 
+Paired products are reconciled after all rows are read. Their price needs two valid member prices from the same brand. Their stock follows the smaller member quantity, with explicit handling of partial inventory files. The operator report records unresolved pairs for review.
+
 ## Matching Strategy
 
 The private implementation avoids broad fuzzy matching for operational updates. It uses stricter reference boundaries and attribute checks so a short reference does not accidentally match an unrelated product title.

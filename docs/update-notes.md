@@ -1,5 +1,14 @@
 # Public Update Notes
 
+## 2026-10-11 — Paired product reconciliation
+
+- Improved recognition of two-item sets across supported catalogue title formats.
+- Made paired prices depend on both source prices, with no estimated price from one member.
+- Based paired availability on the smaller member quantity and kept partial imports from clearing stock unless explicitly requested.
+- Added a catalogue availability check between imports so a set is not offered when a member becomes unavailable.
+- Strengthened regression coverage for partial files, numeric stock, family references, and brand isolation.
+
+
 ## 2026-10-11 — Strict brand scope
 
 - Restricted brand-level reports and out-of-list inventory actions to exact terms in dedicated brand taxonomies.
