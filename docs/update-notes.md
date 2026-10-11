@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-10-11 — Strict brand scope
+
+- Restricted brand-level reports and out-of-list inventory actions to exact terms in dedicated brand taxonomies.
+- Removed fuzzy matches across unrelated product attributes and prevented category descendants from entering another brand's run.
+- Added regression coverage for dedicated brand precedence, bilingual legacy fallbacks, and compound-label false positives.
+- Preserved operational privacy: no live product identifiers, supplier prices, report files, or catalog data are included here.
+
 ## 2026-06-08 — Phase 3
 
 - Added three sanitized PHP snippets for reference normalization, import-row validation, and dry-run report building.

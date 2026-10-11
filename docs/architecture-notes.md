@@ -28,6 +28,8 @@ The workflow is designed for controlled catalog operations, not blind bulk edits
 
 The private implementation avoids broad fuzzy matching for operational updates. It uses stricter reference boundaries and attribute checks so a short reference does not accidentally match an unrelated product title.
 
+Brand-wide operations treat a dedicated brand taxonomy as authoritative. If an exact brand term exists, unrelated attributes such as warranty-provider or distributor labels cannot expand that brand's scope. Legacy category/title fallback uses exact normalized labels and never includes category descendants.
+
 This is important because a price-sync tool is a high-impact operational system: a false positive can publish incorrect prices or stock states across a live store.
 
 ## Reliability Considerations
