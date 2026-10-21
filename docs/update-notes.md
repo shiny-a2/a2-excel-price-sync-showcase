@@ -4,7 +4,7 @@
 
 - Added bounded recovery for interrupted price and stock imports from their last saved batch checkpoint.
 - Prevented a retry from scheduling alongside an existing continuation for the same import.
-- Reduced batch size and prioritized scheduled commerce work within the existing server runner. Production completion is being checked separately.
+- Reduced batch size and added a bounded runner for the existing scheduler queue. Both affected production imports completed with reports and sampled price and inventory checks.
 
 ## 2026-10-11 — Independent price and stock modes
 
