@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-21 — Safer background import recovery
+
+- Added bounded recovery for interrupted price and stock imports from their last saved batch checkpoint.
+- Prevented a retry from scheduling alongside an existing continuation for the same import.
+- Reduced batch size and prioritized scheduled commerce work within the existing server runner. Production completion is being checked separately.
+
 ## 2026-10-11 — Independent price and stock modes
 
 - Kept family-reference pricing independent from inventory changes.
