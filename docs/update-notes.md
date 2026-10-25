@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-10-25 — Brand-family import matching
+
+- Corrected a mismatch between supplier parent-brand labels and catalog subbrand labels so valid products are no longer reported as missing.
+- Kept the destructive out-of-list inventory sweep on its existing exact-brand boundary while expanding normal row matching and read-only reports.
+- Added regression checks for parent and subbrand matching and for unrelated brands staying outside the import scope.
+
 ## 2026-10-21 — Safer background import recovery
 
 - Added bounded recovery for interrupted price and stock imports from their last saved batch checkpoint.
