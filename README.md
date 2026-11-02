@@ -97,3 +97,7 @@ Read the full boundary in `docs/privacy-boundary.md`.
 - Portfolio: <https://amiraliyaghouti.com>
 - GitHub profile: <https://github.com/shiny-a2>
 - Private source: `shiny-a2/a2-excel-price-sync` (not public)
+
+## Reference formatting update
+
+[Version 6.2.4](docs/reference-formatting-6.2.4.md) handles invisible formatting without relaxing model or brand boundaries.
