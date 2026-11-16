@@ -1,0 +1,17 @@
+# 6.3.0 — connected catalog follow-up and branch stock recovery
+
+Completed spreadsheet imports now expose a stable report that the existing
+product research and image review workflow can consume. Available company
+products missing from the catalog become candidates after exact checks; unknown
+availability, duplicate references and unverified brands remain review items.
+Products in stock but absent from a price list are included in the report.
+
+Branch sales retain separate stock ownership and dated event receipts. An
+unchanged invoice can retry a failed update, while repeated imports cannot
+subtract the same sale again. Historical sales already covered by an opening
+count do not reduce inventory twice.
+
+Validation passed 10 catalog-export, 36 branch-stock and 40 workbook/set checks,
+plus 55 checks in a real isolated WordPress/WooCommerce/MariaDB fixture. These
+tests used synthetic records. No production message or stock write was used as a
+test. Source is prepared; installation and activation remain pending.
