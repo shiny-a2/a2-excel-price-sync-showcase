@@ -1,6 +1,6 @@
 # A2 Excel Price Sync Showcase
 
-Prepared update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md). Production installation remains pending.
+Installed update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md), with live workflow observation still pending.
 
 Public-safe showcase for a private WooCommerce operational plugin that turns controlled spreadsheet handoffs into safer product price and stock updates.
 

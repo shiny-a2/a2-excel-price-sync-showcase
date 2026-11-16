@@ -14,4 +14,11 @@ count do not reduce inventory twice.
 Validation passed 10 catalog-export, 36 branch-stock and 40 workbook/set checks,
 plus 55 checks in a real isolated WordPress/WooCommerce/MariaDB fixture. These
 tests used synthetic records. No production message or stock write was used as a
-test. Source is prepared; installation and activation remain pending.
+test. The reviewed version was installed after owner approval and the completed-import
+bridge was enabled for future jobs.
+
+Installation checks matched committed source hashes, validated backups and
+confirmed the live API contract and rejection of unauthenticated requests. The
+existing bot and image worker remained operational. Actual output from the next
+genuine completed import and the next due reminder remain to be observed; no
+fabricated transaction or test message was sent.
