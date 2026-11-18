@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-11-18 — Branch quantities and verified reference recovery
+
+- A stock file with a numeric quantity column now requires the corresponding import mode. This prevents multi-unit rows from being interpreted as single units.
+- When a title lookup misses a formatted model code, the importer may use one exact reference attribute within the selected brand if the complete model is also visible in the title. Conflicting titles and ambiguous attributes remain in the review report.
+- Recovered matches carry a distinct report marker. Focused quantity, reference, paired-product and price checks passed; read-only checks confirmed the installed behavior. No fresh branch file was applied as part of this release.
+
 ## 2026-10-25 — Brand-family import matching
 
 - Corrected a mismatch between supplier parent-brand labels and catalog subbrand labels so valid products are no longer reported as missing.
