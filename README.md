@@ -1,6 +1,8 @@
 # A2 Excel Price Sync Showcase
 
-Installed update: [branch quantities and verified reference recovery](docs/update-notes.md#2026-11-18--branch-quantities-and-verified-reference-recovery), with the first fresh branch import still pending.
+Current update: [daily supplier availability and regular prices](docs/update-notes.md#2026-11-24--daily-supplier-availability-and-regular-prices).
+
+Earlier update: [branch quantities and verified reference recovery](docs/update-notes.md#2026-11-18--branch-quantities-and-verified-reference-recovery), with the first fresh branch import still pending.
 
 Previous update: [supplier import follow-up and branch stock recovery](docs/releases/2026-11-16-supplier-import-automation.md).
 

@@ -1,5 +1,12 @@
 # Public Update Notes
 
+## 2026-11-24 — Daily supplier availability and regular prices
+
+A daily catalogue import checks pagination, currency, availability and the supplier’s two reference fields before matching a watch to the shop. It records supplier availability separately from physical stock. A conflict with an active promotion or a later manual price edit goes to review. Available models with a confirmed reference can enter the existing catalogue intake.
+
+WooCommerce integration tests covered a repeated import, an active promotion, physical stock, loss of supplier availability and a new model. The first catalogue comparison also identified legacy shop references that could otherwise create duplicate watches.
+
+
 ## 2026-11-18 — Branch quantities and verified reference recovery
 
 - A stock file with a numeric quantity column now requires the corresponding import mode. This prevents multi-unit rows from being interpreted as single units.
