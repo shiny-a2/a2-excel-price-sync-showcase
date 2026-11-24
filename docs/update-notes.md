@@ -58,3 +58,7 @@
 - Created the Phase 1 public showcase skeleton.
 - Added privacy boundary, reviewer path, tech stack, and sample-code placeholder.
 - Kept production sheets, price data, and source code private.
+
+### Spreadsheet encoding compatibility · November 24, 2026
+
+Persian CSV uploads now work on PHP installations without iconv stream filters. The reader preserves characters split across chunks and recognizes Windows-1256 text after long ASCII headers. The release passed 56 CSV checks and a read-only replay of a supplier export.
