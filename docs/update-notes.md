@@ -1,5 +1,11 @@
 # Public Update Notes
 
+## 2026-11-25 — Branch stock recovery after cancelled orders
+
+- A cancelled order can return its sold physical unit to the same branch even when company availability kept the product purchasable after the sale.
+- Recovery requires a matching order allocation and stock event. A newer branch inventory snapshot or changed allocation pauses the update for review.
+- A queued recovery action and repeat-safe event prevent an interrupted restoration from adding the unit twice. Focused stock and existing import checks passed.
+
 ## 2026-11-24 — Daily supplier availability and regular prices
 
 A daily catalogue import checks pagination, currency, availability and the supplier’s two reference fields before matching a watch to the shop. It records supplier availability separately from physical stock. A conflict with an active promotion or a later manual price edit goes to review. Available models with a confirmed reference can enter the existing catalogue intake.

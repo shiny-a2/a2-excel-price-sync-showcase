@@ -1,6 +1,8 @@
 # A2 Excel Price Sync Showcase
 
-Current update: [daily supplier availability and regular prices](docs/update-notes.md#2026-11-24--daily-supplier-availability-and-regular-prices).
+Current update: [branch stock recovery after cancelled orders](docs/update-notes.md#2026-11-25--branch-stock-recovery-after-cancelled-orders).
+
+Earlier update: [daily supplier availability and regular prices](docs/update-notes.md#2026-11-24--daily-supplier-availability-and-regular-prices).
 
 Earlier update: [branch quantities and verified reference recovery](docs/update-notes.md#2026-11-18--branch-quantities-and-verified-reference-recovery), with the first fresh branch import still pending.
 
