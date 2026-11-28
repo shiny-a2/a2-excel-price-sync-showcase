@@ -2,6 +2,7 @@
 
 ## 2026-11-28 — Evidence for supplier availability
 
+- Released the guard for one verified sold-out listing. WooCommerce and public storefront availability agreed after deployment, with price and sale history preserved. Other source cohorts remain pending a verified natural run.
 - Prepared a scoped release that requires fresh, authorized evidence before treating supplier availability as sellable. Older signals remain visible for investigation, and the physical stock ledger stays separate from supplier availability.
 - Passed 34 isolated WordPress and WooCommerce integration checks for sale, cancellation, reservation, price-only imports, stale and duplicate inputs, and rollback. Production deployment is pending compatibility checks for the existing import integrations and independent review.
 
