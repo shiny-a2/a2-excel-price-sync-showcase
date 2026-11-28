@@ -1,5 +1,10 @@
 # Public Update Notes
 
+## 2026-11-28 — Evidence for supplier availability
+
+- Prepared a scoped release that requires fresh, authorized evidence before treating supplier availability as sellable. Older signals remain visible for investigation, and the physical stock ledger stays separate from supplier availability.
+- Passed 34 isolated WordPress and WooCommerce integration checks for sale, cancellation, reservation, price-only imports, stale and duplicate inputs, and rollback. Production deployment is pending compatibility checks for the existing import integrations and independent review.
+
 ## 2026-11-25 — Branch stock recovery after cancelled orders
 
 - A cancelled order can return its sold physical unit to the same branch even when company availability kept the product purchasable after the sale.
